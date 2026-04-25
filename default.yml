@@ -1,0 +1,25 @@
+ldap:
+  dn: DC=somecompany,DC=pl
+
+  server:
+    host: ad01.somecompany.pl
+    port: 389
+    use_ssl: false
+    timeout: 10
+
+  bind:
+    user: CN=CalderaService,OU=Soc-Konta,OU=KONTA USLUG,DC=somecompany,DC=pl
+    password: SUPER_SECRET
+
+  user:
+    attribute: sAMAccountName
+    search_filter: "({attr}={username})"
+
+  group:
+    attribute: memberOf
+    match: contains
+
+  access_control:
+    required_groups:
+      red: "CN=CalderaRED"
+      blue: "CN=CalderaBLUE"
