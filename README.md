@@ -3,8 +3,6 @@ Better LDAP handler that supports AD structure in companies.
 
 Almost 80% of companies use Active Directory (AD) implementation. MITRE Caldera does not support such environment by default - that is what made me create such handler and create enterprise-grade login handler jus like you would do this in commercial products. 
 
-Contents of <a href=default.yml> default</a> file:
-
 <details>
 <summary><b>Show parameters how-to table</b></summary>
 
