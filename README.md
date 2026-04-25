@@ -70,4 +70,4 @@ mv ldap.py your/path/to/caldera/app/service/login_handlers/
 
 This contribution is licensed under the Apache License 2.0, in accordance with the MITRE Caldera project.
 
-Copyright (c) 2026 Robert Strzoda (csshark)
+Copyright (c) 2026 Robert Strzoda (csshark).
