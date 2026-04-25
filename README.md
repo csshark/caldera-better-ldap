@@ -24,7 +24,7 @@ Almost 80% of companies use Active Directory (AD) implementation. MITRE Caldera 
 </details>
 
 <details>
-<summary><b>Show example yml file</b></summary>
+<summary><b>Show example yml config</b></summary>
 
 ```yml
 ldap:
