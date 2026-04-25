@@ -64,3 +64,17 @@ ldap:
 </code></pre>
 3. Ensure to change handler in your yml:
 `auth.login.handler.module:` `ldap`
+
+## Contribution & Licensing Notice
+Author: csshark
+
+This LDAP authentication module enhancement was originally developed by Robert Strzoda as an independent improvement to the existing authentication mechanism.
+
+The code is contributed to the project as an open-source contribution and is intended to be used, modified, and distributed under the same license as the parent project.
+
+By submitting this contribution, the author grants the project maintainers and users the right to:
+- use the code in commercial and non-commercial environments
+- modify and adapt the implementation
+- redistribute it as part of the project or derivative works
+
+No additional restrictions are imposed beyond those defined by the project's original license.
