@@ -60,7 +60,8 @@ ldap:
 1. Clone repo
 <pre><code>git clone https://github.com/csshark/caldera-better-ldap.git</code></pre>
 2. Move files
-<pre><code>mv ldap.py caldera/app/service/login_handlers/
+<pre><code>cd caldera-better-ldap
+mv ldap.py your/path/to/caldera/app/service/login_handlers/
 </code></pre>
 3. Ensure to change handler in your yml:
 `auth.login.handler.module:` `ldap`
