@@ -8,7 +8,7 @@ ldap:
     timeout: 10
 
   bind:
-    user: CN=CalderaService,OU=Soc-Konta,OU=KONTA USLUG,DC=somecompany,DC=pl
+    user: CN=CalderaServiceAcc,OU=FILLME,OU=FILLMEH,DC=somecompany,DC=pl
     password: SUPER_SECRET
 
   user:
